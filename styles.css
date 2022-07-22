@@ -27,14 +27,22 @@ h1 {
   justify-content: center;
 }
 
-.add-entry-button {
+.button {
   background-color: #1c5d99;
   color: white;
   border: none;
-  padding: 0.6rem 2rem;
   border-radius: 0.2rem;
   cursor: pointer;
+  padding: 0.6rem 2rem;
+}
+
+.add-entry {
   width: 10rem;
+  height: 2.5rem;
+}
+
+.submit {
+  width: 5rem;
   height: 2.5rem;
 }
 
@@ -64,6 +72,15 @@ h1 {
   margin-top: auto;
   margin-bottom: auto;
   padding: 2rem;
+  width: 45rem;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-full {
+  width: 100%;
 }
 
 .flex-column {
