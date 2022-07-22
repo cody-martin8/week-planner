@@ -108,3 +108,7 @@ select {
   padding: 0.15rem;
   margin-right: 1rem;
 }
+
+.schedule {
+  border: 1px solid black;
+}
