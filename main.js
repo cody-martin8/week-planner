@@ -10,11 +10,10 @@
 //   pull data from inputs and add to data.entries as new object
 
 var $addEntryButton = document.querySelector('.button.add-entry');
-console.log($addEntryButton);
+
 var $submitButton = document.querySelector('.button.submit');
-console.log($submitButton);
+
 var $modal = document.getElementById('modal');
-console.log($modal);
 
 $addEntryButton.addEventListener('click', function addEntry() {
   $modal.className = 'row';
@@ -22,4 +21,11 @@ $addEntryButton.addEventListener('click', function addEntry() {
 
 $submitButton.addEventListener('click', function submitEntry() {
   $modal.className = 'row hidden';
+});
+
+var $entryForm = document.getElementById('entry-form');
+console.log($entryForm);
+$entryForm.addEventListener('submit', function (event) {
+  event.preventDefault();
+
 });

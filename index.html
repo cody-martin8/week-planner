@@ -8,33 +8,36 @@
 </head>
 <body>
   <div class="container overlay-wrapper">
-    <div class="row hidden" id="modal">
-      <div class="column-full overlay flex-row justify-center align-center">
-        <div class="modal-container flex-column justify-center align-center">
-          <div class="row column-full">
-            <h1 class="text-center">Add Entry</h1>
-          </div>
-          <div class="row column-full margin-top-bottom">
-            <select>
-              <option value="Day of the Week">Day of the Week</option>
-              <option value="sunday">Sunday</option>
-              <option value="monday">Monday</option>
-              <option value="tuesday">Tuesday</option>
-              <option value="wednesday">Wednesday</option>
-              <option value="thursday">Thursday</option>
-              <option value="friday">Friday</option>
-              <option value="saturday">Saturday</option>
-            </select>
-            <input type="time" id="time" min="7:00" max="23:00">
-          </div>
-          <div class="row column-full margin-top-bottom">
-            <textarea name="Description" class="column-full" id="text-area" rows="7" placeholder="Description"></textarea>
-          </div>
-          <div class="row flex-row justify-end">
-            <button type="button" class="button submit">Submit</button>
+    <div class="row hidden" data-view="entry-form" id="modal">
+      <form id="entry-form" action="">
+        <div class="column-full overlay flex-row justify-center align-center">
+          <div class="modal-container flex-column justify-center align-center">
+            <div class="row column-full">
+              <h1 class="text-center">Add Entry</h1>
+            </div>
+            <div class="row column-full margin-top-bottom">
+              <select>
+                <option value="Day of the Week">Day of the Week</option>
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+              </select>
+              <input type="time" id="time" min="7:00" max="23:00">
+            </div>
+            <div class="row column-full margin-top-bottom">
+              <textarea name="Description" class="column-full" id="text-area" rows="7" placeholder="Description"></textarea>
+            </div>
+            <div class="row flex-row justify-end">
+              <button type="button" class="button submit">Submit</button>
+            </div>
           </div>
         </div>
-      </div>
+      </form>
+
     </div>
     <div class="row">
       <div class="column-full padding-top-bottom">
@@ -48,5 +51,6 @@
     </div>
   </div>
   <script src="main.js"></script>
+  <script src="data.js"></script>
 </body>
 </html>
