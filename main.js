@@ -36,5 +36,7 @@ $entryForm.addEventListener('submit', event => {
   plannerEntry.description = $entryForm.elements.description.value;
   plannerEntry.entryId = data.nextEntryId;
   data.nextEntryId++;
-  console.log(plannerEntry)
+  // console.log(plannerEntry)
+  data.entries.unshift(plannerEntry);
+  // console.log(data.entries);
 });
