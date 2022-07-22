@@ -109,6 +109,24 @@ select {
   margin-right: 1rem;
 }
 
+.space-evenly{
+  justify-content: space-evenly;
+}
+
 .schedule {
   border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(233 230 230);
+}
+
+th{
+  background-color:#cccccc;
+}
+
+.column-day{
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: 1rem;
 }
