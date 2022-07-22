@@ -11,7 +11,7 @@
     <div class="overlay-wrapper">
       <div class="overlay"></div>
     </div>
-    <div class="modal-wrapper">
+    <div class="modal-wrapper hidden">
       <div class="modal">
         <div class="row">
           <h1>Add Entry</h1>
@@ -27,9 +27,10 @@
             <option value="friday">Friday</option>
             <option value="saturday">Saturday</option>
           </select>
+          <input type="time" id="time" min="7:00" max="23:00">
         </div>
         <div class="row">
-
+          <textarea name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
         </div>
         <div class="row">
           <button type="button">Submit</button>
