@@ -134,19 +134,24 @@ th {
 
 .time-table {
   width: 25%;
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 
 .description-table {
   width: 75%;
-  padding-right: 5rem;
-}
-
-td {
-  width: 100%;
-  background-color: red;
+  margin-right: 5rem;
 }
 
 table {
-  margin: 0;
+  width: 100%;
+  table-layout: fixed;
+  min-height: 300px;
+}
+
+td {
+  /* table-layout: fixed; */
+}
+
+thead {
+  height: 10%;
 }
