@@ -16,7 +16,7 @@
               <h1 class="text-center">Add Entry</h1>
             </div>
             <div class="row column-full margin-top-bottom">
-              <select>
+              <select name="day">
                 <option value="Day of the Week">Day of the Week</option>
                 <option value="sunday">Sunday</option>
                 <option value="monday">Monday</option>
@@ -26,13 +26,13 @@
                 <option value="friday">Friday</option>
                 <option value="saturday">Saturday</option>
               </select>
-              <input type="time" id="time" min="7:00" max="23:00">
+              <input name="time" type="time" id="time" min="7:00" max="23:00">
             </div>
             <div class="row column-full margin-top-bottom">
-              <textarea name="Description" class="column-full" id="text-area" rows="7" placeholder="Description"></textarea>
+              <textarea name="description" class="column-full" id="text-area" rows="7" placeholder="Description"></textarea>
             </div>
             <div class="row flex-row justify-end">
-              <button type="button" class="button submit">Submit</button>
+              <button type="submit" class="button submit">Submit</button>
             </div>
           </div>
         </div>

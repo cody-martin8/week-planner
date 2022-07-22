@@ -26,10 +26,15 @@ $submitButton.addEventListener('click', function submitEntry() {
 
 var $entryForm = document.getElementById('entry-form');
 console.log($entryForm);
-$entryForm.addEventListener('submit', function (event) {
+
+$entryForm.addEventListener('submit', event => {
   event.preventDefault();
+  console.log(event.target);
   var plannerEntry = {};
-  plannerEntry.time =
-  plannerEntry.day =
-  plannerEntry.description =
+  plannerEntry.time = $entryForm.elements.time.value;
+  plannerEntry.day = $entryForm.elements.day.value;
+  plannerEntry.description = $entryForm.elements.description.value;
+  plannerEntry.entryId = data.nextEntryId;
+  data.nextEntryId++;
+  console.log(plannerEntry)
 });
