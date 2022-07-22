@@ -39,11 +39,19 @@ h1 {
 .add-entry {
   width: 10rem;
   height: 2.5rem;
+  padding: 0.6rem 2rem;
+}
+
+
+.margin-top-bottom{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .submit {
   width: 5rem;
   height: 2.5rem;
+  padding: 0.6rem 1rem;
 }
 
 .vertical-height-centered {
@@ -90,4 +98,9 @@ h1 {
 
 .justify-end {
   justify-content: end;
+}
+
+select{
+  padding:0.15rem;
+  margin-right: 1rem;
 }
