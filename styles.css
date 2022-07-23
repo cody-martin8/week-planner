@@ -130,6 +130,16 @@ th {
   border: 1px solid black;
   padding: 1rem;
   font-size: 1rem;
+  cursor: pointer;
+}
+
+.column-day:hover {
+  background-color: #ccc;
+}
+
+.column-day a {
+  text-decoration: none;
+  color: black;
 }
 
 .time-table {
@@ -146,10 +156,6 @@ table {
   width: 100%;
   table-layout: fixed;
   min-height: 300px;
-}
-
-td {
-  /* table-layout: fixed; */
 }
 
 thead {

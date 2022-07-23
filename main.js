@@ -40,3 +40,17 @@ $entryForm.addEventListener('submit', event => {
   data.entries.unshift(plannerEntry);
   // console.log(data.entries);
 });
+
+// $mondayButton = document.querySelector('.monday');
+// $tuesdayButton = document.querySelector('.tuesday');
+// $wednesdayButton = document.querySelector('.wednesday');
+// $thursdayButton = document.querySelector('.thursday');
+// $fridayButton = document.querySelector('.friday');
+// $saturdayButton = document.querySelector('.saturday');
+// $sundayButton = document.querySelector('.sunday');
+
+// function changeTable {
+
+// }
+
+// $mondayButton.addEventListener('click', changeTable)

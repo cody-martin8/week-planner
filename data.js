@@ -1,6 +1,13 @@
 var data = {
   view: 'entry-form',
   entries: [],
+  // entriesMonday: [],
+  // entriesTuesday: [],
+  // entriesWednesday: [],
+  // entriesThursday: [],
+  // entriesFriday: [],
+  // entriesSaturday: [],
+  // entriesSunday: [],
   editing: null,
   nextEntryId: 1
 };
